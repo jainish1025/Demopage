@@ -38,19 +38,18 @@
 
 
  .link {
-     border: 2px solid red;
+     border: 2px solid #ffc822;
+     padding: 0.5vw 1.4vw;
+     border-radius: 50px;
  }
 
-
-
-
  .spline {
-    position: absolute;
-    top: 12vh;
-    left: -8vw;
-    width: 40%;
-    height: 90vh;
-}
+     position: absolute;
+     top: 12vh;
+     left: -8vw;
+     width: 40%;
+     height: 90vh;
+ }
 
  .hero-section {
      width: 100%;
@@ -100,43 +99,43 @@
      padding-left: 3em;
  }
 
- .span{
-    width: 300px;
-    font-size: 14px;
+ .span {
+     width: 300px;
+     font-size: 14px;
  }
 
- .pre-loader{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+ .pre-loader {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 100vh;
+     background-color: #000;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
  }
 
- .content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: "PP Radio Grotesk";
-    font-size: 2vw;
+ .content {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-family: "PP Radio Grotesk";
+     font-size: 2vw;
  }
 
- .content span{
-    font-family: "Roxborough CF";
-    font-style: italic;
+ .content span {
+     font-family: "Roxborough CF";
+     font-style: italic;
  }
 
  .text {
-    margin-bottom: 1em;
+     margin-bottom: 1em;
  }
 
  .loader {
-    width: 450px;
-    height: 2px;
-    background: red;
+     width: 450px;
+     height: 2px;
+     background: red;
  }
