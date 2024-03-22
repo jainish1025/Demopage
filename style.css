@@ -1,0 +1,142 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Gilroy";
+ }
+
+ html,
+ body {
+     Width: 100%;
+     Height: 100vh;
+     background-color: #000;
+     overflow: hidden;
+ }
+
+ .container {
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .navbar {
+     width: 100%;
+     height: 10vh;
+     background-color: #000;
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-family: "NeueMontreal-Medium";
+     padding: 0 2em;
+ }
+
+ .logo {
+     padding: 0.4rm 0.8em;
+ }
+
+
+ .link {
+     border: 2px solid red;
+ }
+
+
+
+
+ .spline {
+    position: absolute;
+    top: 12vh;
+    left: -8vw;
+    width: 40%;
+    height: 90vh;
+}
+
+ .hero-section {
+     width: 100%;
+     height: 90vh;
+     background-color: #ffc822;
+     border-radius: 1em 1em 0 0;
+     padding: 2em;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .row {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .h1 {
+     font-size: 11vw;
+     letter-spacing: -4px;
+ }
+
+ .row-1,
+ .row-3 {
+     font-family: 'PP Radio Growtesk';
+ }
+
+ .row-2 {
+     font-family: "Roxborough CF";
+ }
+
+
+ .row-1 .p {
+     text-transform: uppercase;
+     padding: 0 2em;
+     font-size: 24px;
+ }
+
+ .row-2 {
+     padding-left: 5em;
+ }
+
+ .row-3 {
+     padding-left: 3em;
+ }
+
+ .span{
+    width: 300px;
+    font-size: 14px;
+ }
+
+ .pre-loader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+ }
+
+ .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "PP Radio Grotesk";
+    font-size: 2vw;
+ }
+
+ .content span{
+    font-family: "Roxborough CF";
+    font-style: italic;
+ }
+
+ .text {
+    margin-bottom: 1em;
+ }
+
+ .loader {
+    width: 450px;
+    height: 2px;
+    background: red;
+ }
